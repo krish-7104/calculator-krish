@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator - Krish</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="input">
+          <input type="text" id="inputId" />
+        </div>
+        <div class="buttons">
+          <span id="clear" class="numBtn" onclick="clickEventHandler(this.id)"
+            >C</span
+          >
+          <span id="%" class="numBtn" onclick="clickEventHandler(this.id)"
+            >%</span
+          >
+          <span id="back" class="numBtn" onclick="clickEventHandler(this.id)"
+            ><span class="material-symbols-outlined clearBtn">
+              backspace
+            </span></span
+          >
+          <span id="/" class="numBtn" onclick="clickEventHandler(this.id)"
+            >/</span
+          >
+          <span id="7" class="numBtn" onclick="clickEventHandler(this.id)"
+            >7</span
+          >
+          <span id="8" class="numBtn" onclick="clickEventHandler(this.id)"
+            >8</span
+          >
+          <span id="9" class="numBtn" onclick="clickEventHandler(this.id)"
+            >9</span
+          >
+          <span id="*" class="numBtn" onclick="clickEventHandler(this.id)"
+            >x</span
+          >
+          <span id="4" class="numBtn" onclick="clickEventHandler(this.id)"
+            >4</span
+          >
+          <span id="5" class="numBtn" onclick="clickEventHandler(this.id)"
+            >5</span
+          >
+          <span id="6" class="numBtn" onclick="clickEventHandler(this.id)"
+            >6</span
+          >
+          <span id="-" class="numBtn" onclick="clickEventHandler(this.id)"
+            >-</span
+          >
+          <span id="1" class="numBtn" onclick="clickEventHandler(this.id)"
+            >1</span
+          >
+          <span id="2" class="numBtn" onclick="clickEventHandler(this.id)"
+            >2</span
+          >
+          <span id="3" class="numBtn" onclick="clickEventHandler(this.id)"
+            >3</span
+          >
+          <span id="+" class="numBtn" onclick="clickEventHandler(this.id)"
+            >+</span
+          >
+          <span id="00" class="numBtn" onclick="clickEventHandler(this.id)"
+            >00</span
+          >
+          <span id="0" class="numBtn" onclick="clickEventHandler(this.id)"
+            >0</span
+          >
+          <span id="." class="numBtn" onclick="clickEventHandler(this.id)"
+            >.</span
+          >
+          <span id="equal" class="numBtn" onclick="clickEventHandler(this.id)"
+            >=</span
+          >
+        </div>
+        <p id="hidden"></p>
+      </div>
+      <footer>
+        Developed By
+        <a href="https://krishjotaniya.netlify.app/" target="_blank"
+          >Krish Jotaniya</a
+        >
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
