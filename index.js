@@ -1,7 +1,7 @@
 let storeArea = document.getElementById("hidden");
 let inputArea = document.getElementById("inputId");
 
-storeArea.innerText = " ";
+storeArea.innerText = "";
 
 const clickEventHandler = (id) => {
   if (id !== "back" && id !== "clear" && id !== "equal") {
