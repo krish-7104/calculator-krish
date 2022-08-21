@@ -68,6 +68,9 @@
     --primary-color: #ffffff;
     --secondary-color: #181818;
   }
+  .card {
+    margin: 10px;
+  }
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -78,5 +81,6 @@
     box-shadow: none;
     border: 2px solid white;
     border-radius: 10px;
+    margin: 10px;
   }
 }
