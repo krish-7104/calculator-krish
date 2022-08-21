@@ -7,7 +7,7 @@
 }
 :root {
   --primary-color: #ffffff;
-  --secondary-color: #000000;
+  --secondary-color: #181818;
 }
 .container {
   background-color: var(--primary-color);
@@ -38,7 +38,9 @@
   font-size: 28px;
   text-align: right;
   outline: none;
+  background-color: var(--primary-color);
   border: none;
+  color: var(--secondary-color);
   letter-spacing: 1.2px;
 }
 .numBtn {
@@ -53,11 +55,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ffffff;
+  background: var(--primary-color);
 }
 .clearBtn {
   font-size: 26px !important;
 }
 #hidden {
   display: none;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary-color: #ffffff;
+    --secondary-color: #181818;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #181818;
+    --secondary-color: #ffffff;
+  }
+  .card {
+    box-shadow: none;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
 }

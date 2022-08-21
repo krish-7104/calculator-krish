@@ -20,3 +20,14 @@ const clickEventHandler = (id) => {
     inputArea.value = storeArea.innerText;
   }
 };
+
+inputArea.addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("equal").click();
+  }
+  if (event.key === "Backspace") {
+    event.preventDefault();
+    document.getElementById("back").click();
+  }
+});
