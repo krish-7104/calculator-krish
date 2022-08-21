@@ -39,6 +39,7 @@
   text-align: right;
   outline: none;
   border: none;
+  letter-spacing: 1.2px;
 }
 .numBtn {
   -webkit-user-select: none;
