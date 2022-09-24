@@ -1,3 +1,3 @@
 Minimal Calculator Design
 
-link : https://calculator-krish.netlify.app/
+link : https://krish-7104.github.io/calculator-krish/
